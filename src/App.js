@@ -1,12 +1,12 @@
 import React, { Fragment } from 'react';
-import { Button } from 'antd';
+import Content from './components/layout/MainContent';
 
 import './App.css';
 
 function App() {
   return (
     <Fragment>
-      <Button type="danger">test</Button>
+      <Content />
     </Fragment>
   );
 }
