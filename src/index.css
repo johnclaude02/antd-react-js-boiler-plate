@@ -7,6 +7,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  position: fixed;
 }
 
 code {
@@ -37,4 +38,21 @@ code {
 
 .site-layout .site-layout-background {
   background: #fff;
+}
+
+.side-nav {
+  overflow: auto;
+  height: 100vh;
+}
+
+.site-body-content {
+  margin: 24px 16px;
+  padding: 24px;
+  min-height: 280px;
+}
+
+.site-footer {
+  padding: 10px;
+  margin-right: 16px;
+  text-align: end;
 }
