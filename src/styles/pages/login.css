@@ -1,0 +1,40 @@
+#login_wrapper {
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url('../../assets/login/bg1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#login_form {
+    width: 600px;
+    height: 370px;
+    padding: 50px;
+    margin: 10% auto;
+    text-align: left;
+    border-radius: 10px;
+    display: inline-block;
+    background-color: #fffaf9;
+    -webkit-box-shadow: -1px -1px 15px -3px #000000; 
+    box-shadow: -1px -1px 15px -3px #000000;
+}
+
+@media only screen and (max-width: 768px) {
+    #login_form {
+        width: 400px;
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    #login_form {
+        width: 300px;
+        text-align: left;
+    }
+
+    .ant-col-offset-8 {
+        margin-left: 0%;
+    }
+}
